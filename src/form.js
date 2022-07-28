@@ -113,7 +113,8 @@ class AdmissionForm extends Component {
                                 className={studNameErr ? ' showError' : ''} />    
                             {studNameErr &&    
                                 <div style={{ color: "red", paddingBottom: 10 }}>{studNameErr}</div>    
-                            }    
+                            }
+                                
     
                         </div>    
                         <div>    
